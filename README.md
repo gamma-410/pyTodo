@@ -1,7 +1,18 @@
 # pyTodo
 This is a Todo application available from the CLI.<br>
 ## use
-Add tasks line by line to <code>todo.txt</code>.
+install <br>
+``$ pip install -e .``
+
+## Commands
+Add:  
+``$ todo add [value]`` 
+
+Show:  
+``$ todo show``  
+
+Delete:  
+``$ todo delete [listNum]``
 
 ## license
-copyright(c) 2021 pyTodo by @moka.
+copyright(c) 2021 pyTodo by @moka (@Yagikichi).

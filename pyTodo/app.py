@@ -5,23 +5,28 @@ import sys
 
 
 def run():
-    args = sys.argv
+    try:
+        args = sys.argv
 
-    if args[1] == "puls":
-        print(args[2] + "を追加しました。")
-        f = open('todo.txt', mode='w')
-        print("ファイルを開いています。")
-        f.write(args[2] + "\n\n")
-        print("書き込み中...")
-        f.close()
-        print("完了しました。")
-
-    elif args[1] == "show":
-        with open('todo.txt', 'r') as f:
-            keyword_list = f.read().split("\n")
-            print("TodoList:")
-            print(keyword_list)
+        if args[1] == "add":
+            print("Add: " + args[2])
+            f = open('todo.txt', mode='a')
+            f.write(args[2] + "\n")
             f.close()
+            print("Completed 👍")
 
-    elif len(args[1]) == 0:
-        print("No value entered.")
+        elif args[1] == "show":
+            with open('todo.txt', 'r') as f:
+                keyword_list = f.read().split("\n")
+                print(keyword_list)
+                f.close()
+        else:
+            print("?: The value is different from the defined value.")
+
+    except:
+        print("Error:The value you entered is different from the defined value.\n")
+        print("-" * 30)
+        print("Add: todo add [value]")
+        print("Show: todo show")
+        print("Delete: todo delete [listNum]")
+        print("-" * 30)
