@@ -1,10 +1,10 @@
 # pyTodo
 This is a Todo application available from the CLI.<br>
 ## use
-install <br>
+### install
 ``$ pip install -e .``
 
-## Commands
+### Commands
 Add:  
 ``$ todo add [value]`` 
 
