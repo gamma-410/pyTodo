@@ -1,6 +1,7 @@
 # pyTodo
 This is a Todo application available from the CLI.<br>
 ## use
+
 ### install
 ``$ pip install -e .``
 
@@ -13,6 +14,9 @@ Show:
 
 Delete:  
 ``$ todo delete [listNum]``
+
+Clear:  
+``$ todo clear``
 
 ## license
 copyright(c) 2021 pyTodo by @moka (@Yagikichi).
