@@ -8,4 +8,5 @@ def main():
     pyTodo.app.run()
 
 
-main()
+if __name__ == "__main__":
+    main()
