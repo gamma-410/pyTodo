@@ -3,6 +3,8 @@ This is a Todo application available from the CLI.<br>
 ## use
 
 ### install
+``$ git clone https://github.com/moka-drip/pyTodo.git``  
+  
 ``$ pip install -e .``
 
 ### Commands
@@ -19,4 +21,5 @@ Clear:
 ``$ todo clear``
 
 ## license
+MPL  
 copyright(c) 2021 pyTodo by @moka (@Yagikichi).
