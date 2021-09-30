@@ -24,4 +24,3 @@ Clear:
 
 ## license
 MPL  
-copyright(c) 2021 pyTodo by @moka (@Yagikichi).
