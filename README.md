@@ -2,7 +2,7 @@
 This is a Todo application available from the CLI.<br>
 ## use
 
-### install
+### install...
 ``$ git clone https://github.com/moka-drip/pyTodo.git`` 
 
 ``$ cd pyTodo``  
