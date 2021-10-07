@@ -3,24 +3,24 @@ This is a Todo application available from the CLI.<br>
 ## use
 
 ### install...
-``
-$ git clone https://github.com/moka-drip/pyTodo.git　　
-$ cd pyTodo　　
-$ pip install -e .　　
-``
+```
+$ git clone https://github.com/moka-drip/pyTodo.git  
+$ cd pyTodo  
+$ pip install -e .  
+```
 
 ### Commands
 Add:  
-``$ todo add [value]`` 
+```$ todo add [value]```
 
 Show:  
-``$ todo show``  
+```$ todo show```  
 
 Delete:  
-``$ todo delete [listNum]``
+```$ todo delete [listNum]```
 
 Clear:  
-``$ todo clear``
+```$ todo clear```
 
 ## license
 MPL  
