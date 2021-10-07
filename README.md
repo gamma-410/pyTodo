@@ -4,9 +4,9 @@ This is a Todo application available from the CLI.<br>
 
 ### install...
 ``
-$ git clone https://github.com/moka-drip/pyTodo.git
-$ cd pyTodo
-$ pip install -e .
+$ git clone https://github.com/moka-drip/pyTodo.git　　
+$ cd pyTodo　　
+$ pip install -e .　　
 ``
 
 ### Commands
